@@ -1,0 +1,63 @@
+header{
+    height: 300vh;
+    width: 100%;
+    background-image: url(./images/cover.3.png);
+    background-repeat: no-repeat;
+}
+ul li{
+    display: inline;
+    margin: 0 20px;
+    color: white;
+    margin-top: -25px;
+
+
+}
+ul{
+    display: flex;
+    justify-content: center;
+    margin-left: -140px;
+}
+
+.name{
+    margin-left: 100px;
+    font-size: medium;
+    color: white;
+    margin-bottom: -35px;
+    padding: 10px;
+}
+.button{
+    display: flex;
+    float: right;
+    margin-right: 100px;
+    margin-top: -40px;
+    
+}
+.btn1{
+    
+}
+.btn2{
+    
+    
+    
+}
+.text{
+    text-align: center;
+    margin-top: 200px;
+    font-size: medium;
+    color: white;
+}
+.button2{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.button2 button{
+    border-radius: 30px;
+    color: white;
+    height: 40px;
+    
+}
+.button2 .btn3{
+    background-color: blue;
+}
