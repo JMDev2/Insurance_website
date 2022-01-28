@@ -69,7 +69,7 @@ ul{
     background-color: blue;
     display: flex;
     justify-content: center;
-    background-color: azure;
+    background-color: beige;
 
 }
 .box1{
@@ -79,6 +79,7 @@ ul{
     margin: 0 2%;  
     background-color: white;
     margin-top: -70px;
+    
 }
 .box2{
     border: 1px solid black;
@@ -98,3 +99,87 @@ ul{
     color: white;
     text-align: justify;
 }
+/*section*/
+.section{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    background-color: white;
+}
+.section1{
+    text-align: center;
+    margin: 0 2%;
+    margin-top: 50px;
+}
+.section2{
+    text-align: center;
+    margin: 0 2%;
+    margin-top: 50px;
+}
+
+.section3{
+    text-align: center;
+    margin: 0 2%;
+    margin-top: 50px;
+}
+/*industry*/
+.industry{
+    background-color: beige;
+}
+.text1{
+}
+
+.text1 h3{
+    display: flex;
+    justify-content: center;
+    
+}
+.text1 p{
+    text-align: center;
+    margin-top: 40px;
+}
+.profiles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    
+
+}
+.profile1{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 0 2%;
+    background-color: white;
+
+}
+.profile2{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 0 2%;
+    background-color: white;
+
+}
+.profile3{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 0 2%;
+    background-color: white;
+
+}
+/*logos*/
+.logos{
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+}
+.logo1{
+    margin: 0 2%;
+}
+
