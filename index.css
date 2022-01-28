@@ -1,0 +1,217 @@
+header{
+    height: 700px;
+    width: 100%;
+    background-image: url(./images/cover.3.png);
+    background-repeat: no-repeat;
+    background-size: 1300px;
+}
+/*header*/
+ul li{
+    display: inline;
+    margin: 0 20px;
+    color: white;
+    margin-top: -25px;
+
+
+}
+ul{
+    display: flex;
+    justify-content: center;
+    margin-left: -140px;
+}
+
+.name{
+    margin-left: 100px;
+    font-size: medium;
+    color: white;
+    margin-bottom: -35px;
+    padding: 10px;
+}
+.button{
+    display: flex;
+    float: right;
+    margin-right: 100px;
+    margin-top: -40px;
+    
+}
+.btn1{
+    
+}
+.btn2{
+    
+    
+    
+}
+.text{
+    text-align: center;
+    margin-top: 200px;
+    font-size: large;
+    color: white;
+}
+.button2{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.button2 button{
+    border-radius: 30px;
+    color: white;
+    height: 40px;
+    
+}
+.text .btn3{
+    color: tomato;
+}
+/*boxes*/
+.boxes{
+    height: 150px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+
+}
+.box1{
+    border: 1px solid black;
+    height: 150px;
+    width: 200px;  
+    margin: 0 2%;  
+    background-color: white;
+    margin-top: -70px;
+    
+}
+.box2{
+    border: 1px solid black;
+    height: 150px;
+    width: 200px; 
+    margin: 0 2%; 
+    background-color: white; 
+    margin-top: -70px;   
+}
+.box3{
+    border: 1px solid black;
+    height: 150px;
+    width: 200px;  
+    margin: 0 2%;  
+    background-color: blue; 
+    margin-top: -70px; 
+    color: white;
+    text-align: justify;
+}
+/*section*/
+.section{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    background-color: white;
+}
+.section1{
+    text-align: center;
+    margin: 0 2%;
+    margin-top: 50px;
+}
+.section2{
+    text-align: center;
+    margin: 0 2%;
+    margin-top: 50px;
+}
+
+.section3{
+    text-align: center;
+    margin: 0 2%;
+    margin-top: 50px;
+}
+/*industry*/
+.industry{
+    background-color: beige;
+}
+.text1{
+}
+
+.text1 h3{
+    display: flex;
+    justify-content: center;
+    
+}
+.text1 p{
+    text-align: center;
+    margin-top: 40px;
+}
+.profiles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    
+
+}
+.profile1{
+    height: 250px;
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 0 2%;
+    background-color: white;
+    text-align: center;
+
+}
+.profile2{
+    height: 250px;
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 0 2%;
+    background-color: white;
+    text-align: center;
+
+
+}
+.profile3{
+    height: 250px;
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 0 2%;
+    background-color: white;
+    text-align: center;
+
+
+}
+/*logos*/
+.logos{
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+}
+.logo1{
+    margin: 0 2%;
+}
+
+/*form*/
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 730px;
+    height: 90px;
+    margin-left: 270px;
+    background-color: blueviolet;
+    margin-top: 40px;
+}
+.form h4{
+    color: white;
+    margin: 0 7%;
+}
+.mail{
+    margin: 0 7%;
+}
+button{
+    background-color: blue;
+}
+/*pricing*/
+.pricing{
+    text-align: center;
+    margin-top: 50px;
+}
