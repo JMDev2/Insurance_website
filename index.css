@@ -79,6 +79,8 @@ ul{
     margin: 0 2%;  
     background-color: white;
     margin-top: -70px;
+    border-radius: 3px;
+    
     
 }
 .box2{
@@ -154,6 +156,7 @@ ul{
     margin: 0 2%;
     background-color: white;
     text-align: center;
+    border-radius: 5px;
 
 }
 .profile2{
@@ -164,6 +167,7 @@ ul{
     margin: 0 2%;
     background-color: white;
     text-align: center;
+    border-radius: 4px;
 
 
 }
@@ -175,6 +179,7 @@ ul{
     margin: 0 2%;
     background-color: white;
     text-align: center;
+    border-radius: 4px;
 
 
 }
@@ -182,7 +187,7 @@ ul{
 .logos{
     display: flex;
     justify-content: center;
-    margin-top: 180px;
+    margin-top: 150px;
 }
 .logo1{
     margin: 0 2%;
@@ -193,12 +198,13 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    border: 1px solid black;
     width: 730px;
     height: 90px;
     margin-left: 270px;
     background-color: blueviolet;
     margin-top: 40px;
+    border-radius: 3px;
 }
 .form h4{
     color: white;
@@ -206,12 +212,46 @@ ul{
 }
 .mail{
     margin: 0 7%;
+    border-radius: 3px;
 }
 button{
     background-color: blue;
+
 }
 /*pricing*/
 .pricing{
     text-align: center;
     margin-top: 50px;
+}
+/*article*/
+.article{
+    display: flex;
+    justify-content: center;
+    margin-top:80px ;
+
+}
+.article1{
+    height: 350px;
+    width: 200px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    
+
+}
+.article2{
+    height: 380px;
+    width: 200px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin-top: -29px;
+    
+
+}
+.article3{
+    height: 350px;
+    width: 200px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    
+
 }
