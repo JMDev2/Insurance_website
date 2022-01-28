@@ -1,9 +1,11 @@
 header{
-    height: 300vh;
+    height: 700px;
     width: 100%;
     background-image: url(./images/cover.3.png);
     background-repeat: no-repeat;
+    background-size: 1300px;
 }
+/*header*/
 ul li{
     display: inline;
     margin: 0 20px;
@@ -43,7 +45,7 @@ ul{
 .text{
     text-align: center;
     margin-top: 200px;
-    font-size: medium;
+    font-size: large;
     color: white;
 }
 .button2{
@@ -60,4 +62,39 @@ ul{
 }
 .button2 .btn3{
     background-color: blue;
+}
+/*boxes*/
+.boxes{
+    height: 150px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+
+}
+.box1{
+    border: 1px solid black;
+    height: 150px;
+    width: 200px;  
+    margin: 0 2%;  
+    background-color: white;
+    margin-top: -70px;
+}
+.box2{
+    border: 1px solid black;
+    height: 150px;
+    width: 200px; 
+    margin: 0 2%; 
+    background-color: white; 
+    margin-top: -70px;   
+}
+.box3{
+    border: 1px solid black;
+    height: 150px;
+    width: 200px;  
+    margin: 0 2%;  
+    background-color: blue; 
+    margin-top: -70px; 
+    color: white;
+    text-align: justify;
 }
