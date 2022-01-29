@@ -230,12 +230,11 @@ header ul{
     width: 730px;
     height: 90px;
     margin-left: 270px;
-    background-color: blueviolet;
-    margin-top: 40px;
+    /* background-color: #252B42; */
     border-radius: 3px;
 }
 .form{
-    background-image: linear-gradient(to right, blue, red);
+    background-image: linear-gradient(to right, #252B42 60%, red);
 }
 .form h4{
     color: white;
@@ -295,7 +294,7 @@ button{
     border-radius: 5px;
     margin-top: -29px;
     text-align: center;
-    background-color: darkslategrey;
+    background-color: #252B42;
 }
 .article3{
     height: 350px;
@@ -311,7 +310,7 @@ button{
     display: flex;
     justify-content: center;
     height: 350px;
-    background-color: indigo;
+    background-color: #252B42;
     
 }
 .details{
