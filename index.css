@@ -27,18 +27,21 @@ header ul{
     margin-bottom: -35px;
     padding: 10px;
 }
-.button{
+.buttonoption{
     display: flex;
     float: right;
     margin-right: 100px;
     margin-top: -40px;
     
 }
-.btn1{
-    
+.buttonoption button{
+    margin-left: 30px;
 }
-.btn2{
-    
+.buttonup button{
+    background-color: blue;
+    margin-right: 70px;
+    height: 30px;
+    border-radius: 5px;
     
     
 }
@@ -48,58 +51,69 @@ header ul{
     font-size: large;
     color: white;
 }
-.button2{
+.buttoncheck{
     display: flex;
     justify-content: center;
     
     
 }
-.button2 button{
-    border-radius: 30px;
-    color: white;
-    height: 40px;
+
+.buttoncheck .btn3{
     
-}
-.text .btn3{
-    color: tomato;
 }
 /*boxes*/
 .boxes{
-    height: 150px;
+    height: 120px;
     background-color: blue;
     display: flex;
     justify-content: center;
     background-color: beige;
+    
+
+}
+.boxes img{
+    margin-top: 10px;
+    margin-left: 15px;
+    
+    
+}
+.boxes h4,p{
+    margin-left: 15px;
+    font-size: 12px;
+    margin-top: 5px;
 
 }
 .box1{
     border: 1px solid black;
-    height: 150px;
+    height: 130px;
     width: 200px;  
     margin: 0 2%;  
     background-color: white;
     margin-top: -70px;
-    border-radius: 3px;
-    
+    border-radius: 1px;
+
+        
     
 }
 .box2{
     border: 1px solid black;
-    height: 150px;
+    height: 130px;
     width: 200px; 
     margin: 0 2%; 
     background-color: white; 
-    margin-top: -70px;   
+    margin-top: -70px;  
+    border-radius: 1px; 
 }
 .box3{
     border: 1px solid black;
-    height: 150px;
+    height: 130px;
     width: 200px;  
     margin: 0 2%;  
     background-color: blue; 
     margin-top: -70px; 
     color: white;
-    text-align: justify;
+    border-radius: 1px;
+    
 }
 /*section*/
 .section{
@@ -139,13 +153,14 @@ header ul{
 .text1 p{
     text-align: center;
     margin-top: 40px;
+    
 }
 .profiles{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 60px;
-    
+    text-align: center;
 
 }
 .profile1{
@@ -235,8 +250,26 @@ button{
     width: 200px;
     border: 1px solid blue;
     border-radius: 5px;
+    text-align: center;
     
+}
+.article ul{
+    margin-left: -15px;
+    font-size: 10px;
+    margin: 3 4%;
+}
+.article ul li{
+   margin: 0 4%;
+   padding: 5px;
+}
 
+.article .artbtn{
+    background-color: blue;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: -20px;
 }
 .article2{
     height: 380px;
@@ -244,17 +277,17 @@ button{
     border: 1px solid blue;
     border-radius: 5px;
     margin-top: -29px;
-    
-
+    text-align: center;
 }
 .article3{
     height: 350px;
     width: 200px;
     border: 1px solid blue;
     border-radius: 5px;
-/*map*/    
-
+    text-align: center;
 }
+
+/*map*/ 
 .map{
     display: flex;
     justify-content: center;
@@ -323,10 +356,8 @@ button{
     width: 100px;
 
 }
-.consult,p{
-    margin-left: 60px;
-    font-weight: lighter;
-}
+/*  */
+
 .consult h3{
     margin-left: 60px;
     font-weight: bolder;
