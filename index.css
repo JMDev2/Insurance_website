@@ -6,15 +6,15 @@ header{
     background-size: 1300px;
 }
 /*header*/
-ul li{
+header ul li{
     display: inline;
     margin: 0 20px;
-    /* color: white; */
+    color: white;
     margin-top: -25px;
 
 
 }
-ul{
+header ul{
     display: flex;
     justify-content: center;
     margin-left: -140px;
@@ -280,6 +280,7 @@ button{
 
 }
 /*Application*/
+
 .application{
     display: flex;
     border: 1px solid black;
@@ -288,12 +289,8 @@ button{
     justify-content: center;  
     margin-top: -150px;
     background-color: white;
-}
-.information{
-    display: flex;
-    justify-content: center;
-    background-color: beige;
-    
+    margin-left: 350px;
+   
 
 }
 .mail_details{
@@ -312,6 +309,7 @@ button{
 
 .consult{
     display: flex;
+    justify-content: center;
     margin-top: 30px;
 
 
@@ -333,7 +331,48 @@ button{
     margin-left: 60px;
     font-weight: bolder;
 }
+.more{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
 
- .contactdetails{
+    
+}
+.info ul li{
+    display: flex;
+    flex-direction: column;
+}
+.Legal ul li{
+    display: flex;
+    flex-direction: column;
+}
+.Features ul li{
+    display: flex;
+    flex-direction: column;
+}
+.Resources ul li{
+    display: flex;
+    
+}
+.Gettouch ul li{
+    display: flex;
+    
+}
+.footer{
+    display: flex;
+    height: 50px;
+    background-color: cyan;
+}
 
- }
+
+.socials ul li{
+    display: flex;
+    display: inline;
+    
+    
+    
+}
+
+
+    
+ 
