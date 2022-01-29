@@ -9,6 +9,7 @@ header{
     background-image: url(./images/cover.3.png);
     background-repeat: no-repeat;
     background-size: 1300px;
+    opacity: 1;
 }
 /*header*/
 header ul li{
@@ -383,14 +384,20 @@ button{
 }
 /*  */
 
+}
 .consult h3{
     margin-left: 60px;
     font-weight: bolder;
+}
+.consult p{
+    margin-left: 60px;
 }
 .more{
     display: flex;
     justify-content: center;
     padding: 30px;
+    height: 100px;
+    background-color: #fafafa;
 
     
 }
@@ -417,8 +424,7 @@ button{
 .footer{
     display: flex;
     height: 50px;
-    background-color: #fafafa
-    ;
+    background-color: #fafafa;
 }
 
 
@@ -431,6 +437,9 @@ button{
 }
 .socials{
     margin-left: 700px;
+}
+.footer p{
+    margin-left: 200px;
 }
 
 
