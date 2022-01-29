@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
 header{
     height: 700px;
     width: 100%;
@@ -38,7 +43,7 @@ header ul{
     margin-left: 30px;
 }
 .buttonup button{
-    background-color: blue;
+    background-color: #23A6F0;
     margin-right: 70px;
     height: 30px;
     border-radius: 5px;
@@ -50,6 +55,7 @@ header ul{
     margin-top: 200px;
     font-size: large;
     color: white;
+    font-family: 'Montserrat';
 }
 .buttoncheck{
     display: flex;
@@ -59,7 +65,7 @@ header ul{
 }
 
 .buttoncheck .btn1{
-    background-color: blue;
+    background-color: #23A6F0;
     color: white;
     border-radius: 30px;
     height: 35px;
@@ -75,10 +81,10 @@ header ul{
 /*boxes*/
 .boxes{
     height: 120px;
-    background-color: blue;
+    background-color: #23A6F0;
     display: flex;
     justify-content: center;
-    background-color: beige;
+    background-color: #fafafa;
     
 
 }
@@ -120,7 +126,7 @@ header ul{
     height: 130px;
     width: 200px;  
     margin: 0 2%;  
-    background-color: blue; 
+    background-color: #23A6F0; 
     margin-top: -70px; 
     color: white;
     border-radius: 1px;
@@ -151,7 +157,7 @@ header ul{
 }
 /*industry*/
 .industry{
-    background-color: beige;
+    background-color: #fafafa;
 }
 .industry h3{
     padding: 20px;
@@ -215,7 +221,7 @@ header ul{
 .logos{
     display: flex;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 140px;
 }
 .logo1{
     margin: 0 2%;
@@ -245,7 +251,7 @@ header ul{
     border-radius: 3px;
 }
 button{
-    background-color: blue;
+    background-color: #23A6F0;
 
 }
 /*pricing*/
@@ -264,7 +270,7 @@ button{
 .article1{
     height: 350px;
     width: 200px;
-    border: 1px solid blue;
+    border: 1px solid #23A6F0;
     border-radius: 5px;
     text-align: center;
     
@@ -280,7 +286,7 @@ button{
 }
 
 .article .artbtn{
-    background-color: blue;
+    background-color: #23A6F0;
     width: 150px;
     height: 30px;
     border-radius: 5px;
@@ -290,7 +296,7 @@ button{
 .article2{
     height: 380px;
     width: 200px;
-    border: 1px solid blue;
+    border: 1px solid #23A6F0;
     border-radius: 5px;
     margin-top: -29px;
     text-align: center;
@@ -299,7 +305,7 @@ button{
 .article3{
     height: 350px;
     width: 200px;
-    border: 1px solid blue;
+    border: 1px solid #23A6F0;
     border-radius: 5px;
     text-align: center;
 
@@ -314,9 +320,10 @@ button{
     
 }
 .details{
-    margin-left: 40px;
+    margin-left: -50px;
     margin-top: 40px;
     color: white;
+    font-family: Montserrat;
     
     }
 .details h3{
@@ -366,12 +373,12 @@ button{
 }
 .contactus{
     margin-left: 450px;
-    background-color: blue;
+    background-color: #23A6F0;
     border-radius: 5px;
     height: 30px;margin-top: 40px;
     height: 50px;
     width: 100px;
-    background-color: beige;
+    
 
 }
 /*  */
@@ -410,16 +417,20 @@ button{
 .footer{
     display: flex;
     height: 50px;
-    background-color: beige;
+    background-color: #fafafa
+    ;
 }
 
 
 .socials ul li{
     display: flex;
     display: inline;
+    justify-content: right;
+
     
-    
-    
+}
+.socials{
+    margin-left: 700px;
 }
 
 
