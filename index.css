@@ -1,3 +1,8 @@
+@media all and (max-width: 500px)
+    body{
+        color: blue;
+    }
+}
 body{
     margin: 0;
     padding: 0;
@@ -267,6 +272,7 @@ button{
     margin-top:80px ;
     height: 400px;
 
+
 }
 .article1{
     height: 350px;
@@ -302,6 +308,7 @@ button{
     margin-top: -29px;
     text-align: center;
     background-color: #252B42;
+    color: white;
 }
 .article3{
     height: 350px;
@@ -311,6 +318,7 @@ button{
     text-align: center;
 
 }
+
 
 /*map*/ 
 .map{
@@ -390,7 +398,7 @@ button{
     font-weight: bolder;
 }
 .consult p{
-    margin-left: 60px;
+    margin-left: -2px;
 }
 .more{
     display: flex;
@@ -423,8 +431,8 @@ button{
 }
 .footer{
     display: flex;
-    height: 50px;
-    background-color: #fafafa;
+    height: 20px;
+    background-color: white;
 }
 
 
@@ -436,12 +444,31 @@ button{
     
 }
 .socials{
-    margin-left: 700px;
+    margin-left: 600px;
+
 }
 .footer p{
     margin-left: 200px;
 }
+.article3 .group{
+   margin-left: 30px;
 
+}
+input[type="checkbox"]{
+    display: none;
+}
+label{
+    position: relative;
+}
+label::before{
+    content: "";
+    background: url("images/circle-removebg-preview.png");
+    background-position: center;
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    /* background-color: green; */
+    left: -20px;
 
-    
- 
+}
