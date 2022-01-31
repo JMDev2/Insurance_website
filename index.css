@@ -218,6 +218,9 @@ header ul{
     text-align: center;
     border-radius: 4px;
 }
+.fa-star-o{
+    color: yellow;
+}
 
 /*logos*/
 .logos{
@@ -348,6 +351,10 @@ button{
 }
 .green-color {
     color:green;
+    height: 10px;
+    width: 10px;
+}.gray-color {
+    color: gray;
     height: 10px;
     width: 10px;
 }
